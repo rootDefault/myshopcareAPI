@@ -19,8 +19,8 @@ class CreateItemsTable extends Migration
             $table->string('description');
             $table->integer('bprice');
             $table->integer('sprice');
-            $table->integer('quanitiy');
-            $table->integer('min_quantity');
+            $table->integer('qty');
+            $table->integer('min_qty');
             $table->timestamps();
         });
     }
