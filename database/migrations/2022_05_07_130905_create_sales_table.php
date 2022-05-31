@@ -22,6 +22,7 @@ class CreateSalesTable extends Migration
             $table->integer('qty');
             $table->integer('bprice');
             $table->integer('sprice');
+            $table->integer('to_be_payed');
             $table->integer('amount');
             $table->integer('balance');
             $table->timestamps();
